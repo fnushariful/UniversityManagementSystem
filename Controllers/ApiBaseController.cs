@@ -5,7 +5,7 @@ namespace UniversityManagementSystem.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ApiBaseController : ControllerBase
+    public abstract class ApiBaseController : ControllerBase
     {
     }
 }
